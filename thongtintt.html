@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  	  <link rel="shortcut icon" type="prof" href="prof/favicon.png"/>
+    <title>Thông Tin Thanh Toán</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="userBx">
+          <div class="imgBx">
+            <img src="tuanaanh.png">
+          </div>
+          <p class="username">Bành Tuấn Anh</p>
+        </div>
+        <div class="menuToggle"></div>
+        <ul class="menu">
+          <li><a href="https://www.facebook.com/atkpeggy.287"><ion-icon name="person-outline"></ion-icon> Trang Cá Nhấn Của Tôi</a></li>
+          <li><a href="https://m.me/100026613197942"><ion-icon name="chatbubble-outline"></ion-icon> Nhắn Tin Cho Tôi</a></li>
+          <li><a href="https://www.facebook.com/atkpeggy.287/about"><ion-icon name="notifications-outline"></ion-icon> Thông Tin</a></li>
+          <li><a href="https://mail.google.com/mail/"><ion-icon name="mail-outline"></ion-icon> Email: banhtuananh1920@gmail.com</a></li>
+          <li><a href="#"><ion-icon name="help-outline"></ion-icon>SDT:0878722331</a></li>
+          <li><a href="#"><ion-icon name="log-out-outline"></ion-icon> Đăng Xuất</a></li>
+        </ul>
+      </div>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script>
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+          navigation.classList.toggle('active');
+        }
+      </script>
+    	<div class="loadding-page">
+    <div class="cssload-box-loading"></div>
+    <div class="container">
+        <div class="card"><span class="head"><img class="avt" src="./tuanaanh.png" width="290px" height="150px"></span>
+            <div class="content">
+                <h3>Thông Tin Thanh Toán</h3> <span>Bành Tuấn Anh</span>
+                <div class="input-text" value=""> <i class="fa fa-address-card-o">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size: 23px;"> - Agribank</a> </i> <input type="text" id="social_input" value="&nbsp;&nbsp;8502205171831"><i class="fa fa-copy"></i> </div>
+                <div class="qrcode">
+                    <img class="logo" src="How-to-Transfer-Money-to-Vietnam-with-Agribank.jpg" width="460px" height="130px">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="srcipt.js"></script>
+</html>
